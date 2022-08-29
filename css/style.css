@@ -1,0 +1,29 @@
+/* Import Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+/* Common Css */
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.container{
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0 2.5rem;
+}
+button{
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 0;
+}
+/* Header Section Design */
+header .banner{
+    display: flex;
+    background: #0e5b72;
+    color: #fff;
+}
