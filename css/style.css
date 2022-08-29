@@ -14,16 +14,31 @@ img{
 .container{
     max-width: 1144px;
     margin: 0 auto;
-    padding: 0 2.5rem;
+    padding: 0 2%;
 }
 button{
-    padding: 8px 15px;
+    padding: 10px 15px;
     border-radius: 5px;
     border: 0;
+    color: #fff;
+    background: #ce1313;
+    font-size: 1.2rem;
+}
+.bg-color{
+    background: #161616;
+    color: #fff;
 }
 /* Header Section Design */
 header .banner{
-    display: flex;
-    background: #0e5b72;
-    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1.5rem;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+header .banner .banner-text h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0;
 }
