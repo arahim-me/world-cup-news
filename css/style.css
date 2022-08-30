@@ -75,6 +75,17 @@ header .banner .banner-text h1{
 /* Footer Section Design */
 .footer-section{
     text-align: center;
+    padding: 20px 0;
+}
+.footer-top{
+    margin: 10px 0;
+}
+.footer-top h2{
+    font-size: 45px;
+}
+.footer-section hr{
+    width: 75%;
+    border-bottom: 1px solid #fff;
 }
 .footer-section ul{    
     display: flex;
