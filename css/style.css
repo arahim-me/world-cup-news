@@ -7,6 +7,9 @@ body{
     box-sizing: border-box;
 
 }
+ul li a{
+    text-decoration: none;
+}
 img{
     width: 100%;
     height: auto;
@@ -41,4 +44,49 @@ header .banner .banner-text h1{
     font-size: 3rem;
     font-weight: 500;
     margin: 0;
+}
+/* Blog Section Design */
+.blog-section .container{
+    display: flex;
+    flex-direction: row;
+}
+.blog-section .container .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #161616;
+    border-radius: 8px;
+    height: 300px;
+    width: 300px;
+    margin: 1.5rem 1.5rem 0 0;
+    padding: 1rem;
+}
+.blog-section .container .menu button{
+    width: 100%;
+    margin: 1rem 0;
+}
+.blog-section .container .blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+/* Footer Section Design */
+.footer-section{
+    text-align: center;
+}
+.footer-section ul{    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-section ul li{
+    list-style-type: none;
+    margin: 1rem;
+}
+.footer-section ul li a{
+    color: #fff;
 }
