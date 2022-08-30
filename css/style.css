@@ -135,6 +135,15 @@ header .banner .banner-text h1 {
 .blog-icons p {
     margin-left: 10px;
 }
+.blog-section .special-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+.blog-section .special-btn button{
+    display: none;
+}
 /* Footer Section Design */
 .footer-section {
     text-align: center;
