@@ -1,0 +1,52 @@
+@media (max-width: 768px) and (min-width: 500px) {
+
+    /* Header Section Design */
+    header .banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1.5rem;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Blog Section Design */
+    .blog-section .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog-section .container .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        background: 0;
+        height: auto;
+    }
+
+    .blog-section .container .menu button {
+        margin: 0 1rem;
+        padding: 15px 0;
+        background: 0;
+        color: #161616;
+        border: 1px solid #161616;
+    }
+
+    .blog-section .container .menu button:hover {
+        margin: 0 1rem;
+        padding: 15px 0;
+        background: #ce1313;
+        color: #fff;
+        border: 1px solid #ce1313;
+    }
+
+    .blog-section .container .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5rem;
+        margin: 1.5rem 0;
+    }
+}
